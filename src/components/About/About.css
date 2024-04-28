@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  body{
+    background-color: #014E56;
+  }
+  .header{
+    padding-top: 77px;
+    padding-bottom: 77px;
+  }
+  .header-container{
+    width: 1110px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+  }
+  .header-logo{
+    display: flex;
+    margin-right: 80px;
+  }
+  .nav-list{
+    gap: 40px;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+  }
+  .nav-link{
+    font-family: Livvic;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  text-align: left;
+  color: white;
+  
+  }
+  .header-btn{
+    margin-left: auto;
+    border-radius: 24px;
+    border: 2px solid #fff;
+    padding: 10px 32px;
+    background-color: transparent;
+  
+   color: #fff;
+  
+  }
+  .header-btn:hover{
+    background-color: #fff;
+    color: #014E56;
+    border-color: white;
+    cursor: zoom-out;
+    transition: .3s;
+  }
+  .hero{
+    padding-top: 52px;
+    padding-bottom: 250px;
+  
+  }
+  .hero-container{
+    width: 1110px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+  }
+  .hero-title{
+    font-family: Livvic;
+  font-size: 100px;
+  font-weight: 700;
+  line-height: 100px;
+  text-align: left;
+  color: white;
+  margin-right: 250px;
+  
+  }
+  .hero-text{
+    font-family: Livvic;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  text-align: left;
+  color: #fff;
+  right: auto;
+  margin-left: 40px;
+  
+  
+  
+  }
+  
+  .hero-title-text{
+    color: #F67E7E;
+  
+  }
